@@ -1,0 +1,36 @@
+User-agent: *
+Disallow:
+
+User-agent: Googlebot-Image
+
+Disallow: /_img/header/2.jpg
+Disallow: /_img/main/depoimentos/1.jpeg
+Disallow: /_img/main/depoimentos/2.jpeg
+Disallow: /_img/main/depoimentos/3.jpeg
+Disallow: /_img/main/encontre-nos/1.png
+Disallow: /_img/main/encontre-nos/2.png
+Disallow: /_img/main/encontre-nos/3.png
+Disallow: /_img/main/especialidades/1.png
+Disallow: /_img/main/especialidades/2.png
+Disallow: /_img/main/especialidades/3.png
+Disallow: /_img/main/especialidades/4.png
+Disallow: /_img/main/especialidades/5.png
+Disallow: /_img/main/especialidades/6.png
+Disallow: /_img/main/especialidades/7.png
+Disallow: /_img/main/especialidades/8.png
+Disallow: /_img/main/pet-shop/1.jpg
+Disallow: /_img/main/pet-shop/2.jpg
+Disallow: /_img/main/pet-shop/3.jpg
+Disallow: /_img/main/pet-shop/4.jpg
+Disallow: /_img/main/pet-shop/5.jpg
+Disallow: /_img/main/pet-shop/6.jpg
+Disallow: /_img/main/pet-shop/7.jpg
+Disallow: /_img/main/resumo/1.png
+Disallow: /_img/main/resumo/2.png
+Disallow: /_img/main/resumo/3.png
+Disallow: /_img/main/resumo/4.png
+
+User-agent: CuteStat
+Disallow: /
+
+Sitemap: https://www.drpaulovet.com/sitemap.xml

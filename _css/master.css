@@ -1,0 +1,260 @@
+/* Google Fonts */
+@font-face {
+    src: url(../_font/Exo2-Regular.ttf);
+    font-family: 'Exo 2';
+}
+
+@font-face {
+    src: url(../_font/Sniglet-Regular.ttf);
+    font-family: 'Sniglet';
+}
+
+/* General Settings */
+body {
+	font-family: 'Exo 2';
+}
+
+.naoExibir {
+    display: none;
+}
+
+/* GS - Título Section */
+h1, h2 {
+	color: #3d8e97;
+	font-size: 40px;
+	font-family: 'Sniglet';
+}
+
+/* GS - Subtítulo Section */
+h3 {
+	font-size: 23px;
+	font-family: 'Sniglet';
+}
+
+/* GS - Descrição Section */
+.section-description {
+	font-size: 25px;
+}
+
+/* GS - Ícones */
+#encontre-nos img, #resumo img {
+	width: 64px;
+	height: 64px;
+}
+
+/* Nav */
+.navbar {
+	min-height: 100px;
+	font-family: 'Sniglet';
+	background-color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #17A2B8;
+}
+
+.navbar .navbar-nav .nav-link.active {
+	color: red;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+.navbar .navbar-nav .nav-link:focus {
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
+
+/* Modal One */
+#modal-one textarea {
+	resize: none;
+	height: 100px;
+}
+
+/* Header */
+header .carousel-inner img {
+	height: 450px;
+	object-fit: cover;
+}
+
+header .texto {
+	top: 20%;
+	left: 15%;
+	z-index: 99;
+	color: #ffffff;
+	font-size: 50px;
+	position: absolute;
+	font-family: 'Sniglet';
+}
+
+/* Section One */
+#encontre-nos {
+	font-size: 20px;
+	font-family: 'Sniglet';
+}
+
+/* Section Two */
+#apresentacao .block-one {
+	background-color: #5EC2CD;
+}
+
+#apresentacao .block-two {
+	background-color: #52A9B3;
+}
+
+#apresentacao .block-three {
+	background-color: #3d8e97;
+}
+
+/* Section Three */
+#resumo .block p {
+	color: #3d8e97;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+/* Section Four */
+#depoimentos {
+	background-color: #D3E5F3;
+}
+
+#depoimentos h2 {
+	font-size: 20px;
+}
+
+#depoimentos .section-description {
+	font-size: 15px;
+}
+
+#depoimentos .block {
+	border-radius: 20px;
+	background-color: whitesmoke;
+}
+
+#depoimentos .block img {
+	width: 130px;
+	height: 130px;
+	object-fit: cover;
+}
+
+#depoimentos .block .name {
+	color: #3d8e97;
+	font-size: 20px;
+	font-family: 'Sniglet';
+}
+
+#depoimentos .block .commentary {
+	font-size: 15px;
+}
+
+/* Section Five */
+#especialidades a {
+	font-family: 'Sniglet';
+}
+
+#especialidades .block {
+	height: 270px;
+	transition: 1.5s;
+	border-radius: 10px;
+	border: 1.5px solid white;
+}
+
+#especialidades .block:hover {
+	cursor: pointer;
+	border: 1.5px solid #3d8e97;
+}
+
+#especialidades img {
+	width: 80px;
+	height: 80px;
+}
+
+#especialidades .block p {
+	color: #3d8e97;
+	font-size: 30px;
+	font-family: 'Sniglet';
+}
+
+/* Section Six */
+#pet-shop a {
+	font-family: 'Sniglet';
+}
+
+#pet-shop .block img {
+	width: 100%;
+	height: 270px;
+	transition: 1.5s;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 1.5px solid white;
+}
+
+#pet-shop .block img:hover {
+	cursor: pointer;
+	border: 1.5px solid #3d8e97;
+}
+
+#pet-shop .block p {
+	font-size: 25px;
+	font-family: 'Sniglet';
+}
+
+/* Section Seven */
+#mural-animal a {
+	font-family: 'Sniglet';
+}
+
+#mural-animal .block {
+	overflow: hidden;
+}
+
+#mural-animal .block img {
+	height: 250px;
+	object-fit: cover;
+}
+
+#mural-animal .block img:hover {
+	cursor: pointer;
+}
+
+/* Footer */
+footer {
+	background-color: #52A9B3;
+}
+
+footer .btn {
+	color: white;
+	border: 2px solid white;
+	font-family: 'Sniglet';
+}
+
+footer .btn:hover {
+	color: #52A9B3;
+	background-color: white;
+}
+
+footer img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 2px solid #C0C0C0;
+}
+
+@media screen and (max-width: 767px) {	
+	header .texto {
+		top: 5%;
+		left: 10%;
+		font-size: 20px;
+	}
+
+	#especialidades .block, #pet-shop .block img {
+		height: 250px;
+	}
+	
+	#mural-animal .block img {
+		height: 150px;
+	}
+}
