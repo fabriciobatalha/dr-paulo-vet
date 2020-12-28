@@ -1,0 +1,15 @@
+# Don't show directory
+IndexIgnore *
+
+# HTTP to HTTPS
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.drpaulovet.com/$1 [R,L]
+
+# To WWW
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^drpaulovet.com
+RewriteRule ^ https://www.drpaulovet.com%{REQUEST_URI} [L,R=301]
+
+# Error Page
+ErrorDocument 404 https://www.drpaulovet.com
